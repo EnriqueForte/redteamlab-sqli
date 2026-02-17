@@ -108,6 +108,37 @@ Las credenciales y los datos utilizados en este proyecto son **exclusivamente pa
     ```
 ---
 
+## 📸 Capturas del laboratorio
+
+A continuación se muestran algunas capturas representativas del laboratorio **RedTeamLab SQLi**, donde se observa el flujo completo de explotación.
+
+---
+
+### 🧭 Vista general del laboratorio
+Página principal del lab con los distintos endpoints vulnerables y pruebas disponibles.
+
+![Index del laboratorio](docs/img/index.png)
+
+---
+
+### 🔓 SQL Injection – Authentication Bypass (Login)
+Bypass de autenticación explotando una **SQL Injection** en el endpoint `login.php`, permitiendo el acceso sin conocer la contraseña del usuario.
+
+![Login SQLi Bypass](docs/img/bypass.png)
+
+---
+
+### 🗄️ SQL Injection – Exfiltración de datos (UNION + GROUP_CONCAT)
+Exfiltración completa de credenciales y roles desde la base de datos mediante **SQLi UNION-based**, adaptando la explotación a una sola columna de salida.
+
+![Dump de usuarios](docs/img/dump.png)
+
+---
+
+> ⚠️ Todas las pruebas se han realizado en un **entorno local y controlado**, con fines educativos.
+
+---
+
 ## 👤 Autor
 **Creado por:** Enrique Forte *(aka qu1qu3h4ck)*  
 
