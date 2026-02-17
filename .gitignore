@@ -1,0 +1,14 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Env / secrets (por si luego lo añades)
+.env
+config.php
